@@ -20,8 +20,7 @@ IMPORTANT:
 GitHub Repository:
 [INSERT YOUR GITHUB REPOSITORY URL]
 
-Live Website:
-https://smart-mosation-system.vercel.app/
+Live Website:https://smart-mosation-system-1.vercel.app/
 
 # PROJECT DESCRIPTION
 
