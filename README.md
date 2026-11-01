@@ -1,229 +1,201 @@
-# smart-mosation-system
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
+# ROLE
+Act as a Senior Software Engineer, GitHub Documentation Specialist, 3D UI/UX Designer, and Technical Writer.
 
-<PROJECT_INSTRUCTIONS>
+# PROJECT
+Smart Motion Detection & Driver Drowsiness Alert System.
 
-    <ROLE>
-        Act as a Senior Full-Stack Developer,
-        GitHub Documentation Engineer,
-        3D UI/UX Designer,
-        and Technical Documentation Specialist.
-    </ROLE>
+# MAIN OBJECTIVE
+Analyze my existing GitHub repository and create a premium, professional, visually attractive README.md file for my Smart Motion System project.
 
-    <PROJECT>
-        <NAME>Smart Motion System</NAME>
-        <CATEGORY>Smart Driver Monitoring and Drowsiness Detection</CATEGORY>
-        <TAGLINE>Drive Safe. Travel Smart.</TAGLINE>
+IMPORTANT:
+- Do not rebuild the existing application.
+- Do not modify existing application functionality.
+- Do not delete or overwrite existing source code.
+- Focus primarily on README.md and its required documentation assets.
+- Inspect the actual repository before writing any project details.
+- Never invent technologies, features, or integrations.
 
-        <GITHUB_REPOSITORY>
-            INSERT_YOUR_GITHUB_REPOSITORY_URL
-        </GITHUB_REPOSITORY>
+# PROJECT LINKS
 
-        <LIVE_WEBSITE>
-            https://smart-mosation-system.vercel.app/
-        </LIVE_WEBSITE>
-    </PROJECT>
+GitHub Repository:
+[INSERT YOUR GITHUB REPOSITORY URL]
 
-    <OBJECTIVE>
-        Analyze the complete existing GitHub project and create
-        a premium, professional, visually attractive README.md.
+Live Website:
+https://smart-mosation-system.vercel.app/
 
-        Focus on documentation and visual presentation.
+# PROJECT DESCRIPTION
 
-        Do not rebuild the application.
-        Do not delete existing files.
-        Do not break existing functionality.
-        Do not invent project features or technologies.
-    </OBJECTIVE>
+Smart Motion System is designed to improve road safety by detecting driver drowsiness while driving a bus.
 
-    <PROJECT_DESCRIPTION>
-        Smart Motion System is designed to improve road safety
-        by monitoring bus drivers and identifying drowsiness.
+The system aims to identify when a bus driver becomes sleepy or loses alertness.
 
-        When a driver becomes sleepy or loses alertness,
-        the system detects the condition and generates
-        a warning notification.
+When drowsiness is detected:
+1. The system identifies the driver's drowsiness.
+2. A visual warning is displayed.
+3. An alert notification is generated.
+4. A message or notification is sent to the configured recipient, if supported by the existing application.
+5. The system helps the responsible person take timely action.
 
-        The system aims to:
-        - Detect driver drowsiness.
-        - Display warning indicators.
-        - Generate real-time alerts.
-        - Send messages to configured recipients,
-          if supported by the existing application.
-        - Help responsible persons respond to safety risks.
-    </PROJECT_DESCRIPTION>
+Explain this workflow clearly using a professional system architecture diagram.
 
-    <README_STRUCTURE>
+# README DESIGN REQUIREMENTS
 
-        <SECTION>Hero Section</SECTION>
-        <REQUIREMENTS>
-            - Large SMART MOTION SYSTEM title.
-            - Professional project tagline.
-            - 3D-style hero visual.
-            - GitHub repository link.
-            - Live Vercel website link.
-            - Verified technology badges.
-        </REQUIREMENTS>
+Create a premium GitHub README with:
 
-        <SECTION>About The Project</SECTION>
-        <REQUIREMENTS>
-            Explain the project purpose, objectives,
-            real-world applications, and road safety benefits.
-        </REQUIREMENTS>
+1. PROJECT HERO SECTION
+- Large project title: SMART MOTION SYSTEM
+- Professional subtitle.
+- Attractive hero image.
+- GitHub repository link.
+- Live Vercel website link.
+- Technology badges based on the actual repository.
 
-        <SECTION>Key Features</SECTION>
-        <FEATURES>
-            <FEATURE>Driver Drowsiness Detection</FEATURE>
-            <FEATURE>Visual Warning Indicators</FEATURE>
-            <FEATURE>Real-Time Alert Generation</FEATURE>
-            <FEATURE>Notification and Messaging</FEATURE>
-            <FEATURE>Driver Monitoring</FEATURE>
-            <FEATURE>Smart Transportation Safety</FEATURE>
-        </FEATURES>
-        <RULE>
-            Include only features verified in the source code.
-            Mark planned features separately.
-        </RULE>
+2. ABOUT THE PROJECT
+Explain:
+- What Smart Motion System is.
+- Why it is needed.
+- What problem it solves.
+- How it improves driver and passenger safety.
 
-        <SECTION>How It Works</SECTION>
-        <FLOW>
-            Driver Monitoring
-            -&gt; Drowsiness Detection
-            -&gt; Condition Analysis
-            -&gt; Warning Generation
-            -&gt; Notification
-            -&gt; Responsible Person Takes Action
-        </FLOW>
-        <REQUIREMENTS>
-            Create a Mermaid flowchart showing the complete
-            driver monitoring and alert workflow.
-        </REQUIREMENTS>
+3. KEY FEATURES
+Document only implemented features:
+- Driver Drowsiness Detection.
+- Real-Time Visual Alerts.
+- Notification / Messaging System.
+- Driver Monitoring.
+- Road Safety Support.
+- Smart Transportation Monitoring.
 
-        <SECTION>3D Visual Design</SECTION>
-        <VISUAL_REQUIREMENTS>
-            <STYLE>Premium Futuristic 3D Technology</STYLE>
-            <BACKGROUND>Dark Navy and Black</BACKGROUND>
-            <PRIMARY_COLOR>Electric Blue</PRIMARY_COLOR>
-            <SECONDARY_COLOR>Cyan</SECONDARY_COLOR>
-            <ALERT_COLOR>Red</ALERT_COLOR>
+Clearly distinguish implemented features from planned features.
 
-            <ELEMENTS>
-                - Modern passenger bus cockpit.
-                - Driver monitoring visualization.
-                - AI detection interface.
-                - Glowing detection indicators.
-                - Futuristic digital dashboard.
-                - Driver alert notification panel.
-                - Realistic 3D lighting and reflections.
-            </ELEMENTS>
+4. HOW IT WORKS
 
-            <ASSET_LOCATION>
-                assets/smart-motion-hero.svg
-            </ASSET_LOCATION>
+Create a Mermaid flowchart:
 
-            <RULE>
-                Use existing project images where available.
-                Create additional visual assets only when needed.
-                Do not generate images in the chat.
-                Create or add assets directly inside the repository.
-            </RULE>
-        </VISUAL_REQUIREMENTS>
+Driver Monitoring
+       ↓
+Drowsiness Detection
+       ↓
+Is Driver Sleepy?
+       ↓
+   Yes → Generate Alert
+       ↓
+Display Warning
+       ↓
+Send Notification
+       ↓
+Responsible Person Takes Action
 
-        <SECTION>Demo Video</SECTION>
-        <REQUIREMENTS>
-            If an existing project demonstration video or GIF
-            is available, include it in the README.
+5. 3D VISUAL DESIGN
 
-            Use a clickable preview image for videos.
+Create a premium 3D-style hero visual specifically for this project.
 
-            Do not claim that GitHub README supports
-            automatic MP4 playback.
+Visual concept:
+- Modern passenger bus cockpit.
+- Driver monitoring concept.
+- AI detection interface.
+- Glowing blue and cyan technology elements.
+- Red drowsiness warning indicator.
+- Notification panel.
+- Futuristic dashboard.
+- Realistic 3D lighting and reflections.
 
-            If no demo exists, add a clearly labelled
-            placeholder section.
-        </REQUIREMENTS>
+Use a professional dark navy background with electric blue and cyan highlights.
 
-        <SECTION>Technologies Used</SECTION>
-        <REQUIREMENTS>
-            Inspect package.json, source files,
-            and project configuration.
+Save any newly created visual assets inside the repository, preferably:
+assets/smart-motion-hero.svg
 
-            Display only the technologies actually used.
-        </REQUIREMENTS>
+Do not generate or download unrelated images.
 
-        <SECTION>Live Demo</SECTION>
-        <URL>
-            https://smart-mosation-system.vercel.app/
-        </URL>
+If suitable existing project screenshots or videos are available, reuse them.
 
-        <SECTION>GitHub Repository</SECTION>
-        <REQUIREMENTS>
-            Add the verified repository URL and
-            a link to the source code.
-        </REQUIREMENTS>
+6. DEMO VIDEO / ANIMATION
 
-        <SECTION>Installation</SECTION>
-        <REQUIREMENTS>
-            Provide accurate instructions for:
+If the repository contains a demonstration video:
+- Add it to the README using a GitHub-compatible video link.
+- Provide a clickable preview image.
+- If a GIF demonstration exists, embed it.
+- Never claim that GitHub README supports reliable autoplay of MP4 videos.
 
-            1. Cloning the repository.
-            2. Installing dependencies.
-            3. Configuring environment variables.
-            4. Running the project locally.
-            5. Building the application.
-            6. Deploying through Vercel.
-        </REQUIREMENTS>
+If no video exists, provide a clearly labelled demo placeholder instead of inventing one.
 
-        <SECTION>Future Enhancements</SECTION>
-        <FEATURES>
-            <FEATURE>Advanced AI Drowsiness Detection</FEATURE>
-            <FEATURE>Enhanced Notification System</FEATURE>
-            <FEATURE>Fleet Monitoring Dashboard</FEATURE>
-            <FEATURE>Driver Safety Analytics</FEATURE>
-            <FEATURE>Advanced Real-Time Monitoring</FEATURE>
-        </FEATURES>
+7. TECHNOLOGIES USED
 
-        <SECTION>Footer</SECTION>
-        <CONTENT>
-            SMART MOTION SYSTEM
-            Drive Safe. Travel Smart.
+Inspect package.json, source files, and project configuration.
 
-            GitHub Repository
-            Live Website
-        </CONTENT>
+List only technologies actually used.
 
-    </README_STRUCTURE>
+8. LIVE DEMO
 
-    <DESIGN_STANDARDS>
-        <STANDARD>Professional GitHub Markdown</STANDARD>
-        <STANDARD>Premium Technology Startup Appearance</STANDARD>
-        <STANDARD>Clean Documentation Layout</STANDARD>
-        <STANDARD>Consistent Colors and Visual Identity</STANDARD>
-        <STANDARD>Responsive Images</STANDARD>
-        <STANDARD>Mermaid Architecture Diagrams</STANDARD>
-        <STANDARD>Professional Badges</STANDARD>
-    </DESIGN_STANDARDS>
+Add a prominent link:
 
-    <EXECUTION_RULES>
-        <RULE>Analyze the entire existing repository first.</RULE>
-        <RULE>Create or update README.md.</RULE>
-        <RULE>Store visual assets inside the repository.</RULE>
-        <RULE>Verify all image paths and hyperlinks.</RULE>
-        <RULE>Verify all project features against source code.</RULE>
-        <RULE>Preserve existing application functionality.</RULE>
-        <RULE>Do not modify unrelated source files.</RULE>
-        <RULE>Ensure GitHub Markdown compatibility.</RULE>
-    </EXECUTION_RULES>
+https://smart-mosation-system.vercel.app/
 
-    <FINAL_DELIVERABLE>
-        <FILE>README.md</FILE>
-        <ASSETS>assets/</ASSETS>
-        <RESULT>
-            A complete, professional, premium 3D-inspired
-            GitHub README for Smart Motion System.
-        </RESULT>
-    </FINAL_DELIVERABLE>
+9. GITHUB REPOSITORY
 
-</PROJECT_INSTRUCTIONS>
-```
+Add the actual repository URL after verifying its remote configuration.
+
+10. INSTALLATION AND LOCAL SETUP
+
+Provide accurate commands based on the actual project.
+
+Include:
+- Clone repository.
+- Install dependencies.
+- Configure environment variables if required.
+- Run locally.
+- Build the project.
+
+11. FUTURE ENHANCEMENTS
+
+Suggest possible improvements:
+- Advanced AI-based drowsiness detection.
+- Improved notification functionality.
+- Fleet monitoring dashboard.
+- Driver safety analytics.
+- Real-time monitoring improvements.
+
+Label these as future enhancements, not completed features.
+
+12. FOOTER
+
+Add:
+SMART MOTION SYSTEM
+"Drive Safe. Travel Smart."
+
+Add GitHub and Live Demo links.
+
+# DESIGN QUALITY
+
+The README must look like a premium technology startup project.
+
+Use:
+- Professional Markdown.
+- Clean section spacing.
+- Attractive badges.
+- Mermaid diagrams.
+- 3D-style visuals.
+- Organized feature tables.
+- Responsive image sizing.
+- Professional typography through visual assets.
+
+Avoid:
+- Excessive emojis.
+- Unnecessary text.
+- Fake statistics.
+- Broken image URLs.
+- Fake functionality claims.
+- Unverified technology badges.
+
+# FINAL TASKS
+
+1. Analyze the complete repository.
+2. Create or update README.md.
+3. Add required visual assets inside the repository.
+4. Verify all relative image paths.
+5. Verify all repository and deployment links.
+6. Preview the Markdown structure.
+7. Ensure the README renders correctly on GitHub.
+8. Preserve all existing project functionality.
+
+Final result: A professional, premium, 3D-inspired GitHub README that clearly explains the Smart Motion System, its purpose, driver drowsiness detection workflow, GitHub repository, and live Vercel deployment.
