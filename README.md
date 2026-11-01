@@ -129,7 +129,7 @@ List only technologies actually used.
 
 Add a prominent link:
 
-https://smart-mosation-system.vercel.app/
+https://smart-mosation-system-1.vercel.app/
 
 9. GITHUB REPOSITORY
 
